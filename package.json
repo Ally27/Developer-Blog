@@ -1,0 +1,26 @@
+{
+  "name": "developer-blog",
+  "version": "1.0.0",
+  "description": "CMS-style blog site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.38.0",
+    "express-handlebars": "^7.0.6",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.2.1",
+    "sequelize": "^6.31.0"
+  }
+}
