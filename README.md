@@ -1,8 +1,7 @@
-# Music-to-My-Ears
+# Developer-Blog
 <img src="" width="250">
 
 ## Introduction
-
 
 ## Description
 
