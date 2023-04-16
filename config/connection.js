@@ -8,7 +8,7 @@ if (process.env.JAWSDB_URL) {
   sequelize = new Sequelize(
     process.env.DB_NAME,
     process.env.DB_USER,
-    process.env.DB_PASSWORd,
+    process.env.DB_PASSWORD,
     {
       host: "localhost",
       dialect: "mysql",
@@ -17,4 +17,4 @@ if (process.env.JAWSDB_URL) {
   );
 }
 
-module.exports = sequelize
+module.exports = sequelize;
