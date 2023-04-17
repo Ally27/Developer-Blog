@@ -1,6 +1,6 @@
 [{
     "name": "postname",
-    "description": "post description",
-    "needed_funding": 500
+    "description": "post description"
+
   }
 ]
