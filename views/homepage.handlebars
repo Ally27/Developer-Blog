@@ -1,0 +1,40 @@
+<!-- Loop over each object in the posts array -->
+{{#each post as |post|}}
+  <div class="row mb-4 post text-white">
+    <div class="col-md-5 bg-teal-900">
+      <h2>
+        <!-- Call helper function with triple brackets to render the emoji span as HTML -->
+        <a href="/post/{{post.id}}">{{post.name}}</a>
+      </h2>
+      <br />
+      <p>Created by:
+        {{post.user.name}}
+        on
+        {{format_date post.date_created}}</p>
+    </div>
+    <div class="col-md-7 bg-stone-400 text-black">
+      <p>
+        {{post.description}}
+        <div
+          class="box-container border-4 bg-teal-900 mt-2 rounded-lg "
+        >
+          <div class="box p-2">
+            <form class="commentbox">
+              <textarea
+                class="commentbox w-full h-10 border-2 rounded-lg resize-none focus:outline-purple-500"
+                style="text-indent: 10px"
+                placeholder="Add a comment"
+              ></textarea>
+              <button
+                class="post-btn commentbtn bg-teal-500 hover:bg-teal-300 text-white text-xs font-medium py-2 px-2 rounded-lg focus:outline-none focus:ring-2 focus:border-transparent"
+                type="submit"
+                data="{{post.id}}"
+              >Post Comment</button>
+            </form>
+          </div>
+        </div>
+      </p>
+    </div>
+
+  </div>
+{{/each}}
