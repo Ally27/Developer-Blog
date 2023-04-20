@@ -30,8 +30,9 @@ npm start.
 
 
 ## Screenshots
-<img src="" width="280"><br>
-<img src="" width="250">
+<img src="assets\images\Developer-Blog-dashboard.png" width="250">
+<img src="assets\images\Developer-Blog-login.png" width="240">
+<img src="assets\images\Developer-Blog-profile.png" width="250">
 
 
 ## Contributors
