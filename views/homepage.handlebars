@@ -1,9 +1,7 @@
-<!-- Loop over each object in the posts array -->
 {{#each post as |post|}}
   <div class="row mb-4 post text-white">
     <div class="col-md-5 bg-teal-900">
       <h2>
-        <!-- Call helper function with triple brackets to render the emoji span as HTML -->
         <a href="/post/{{post.id}}">{{post.name}}</a>
       </h2>
       <br />
